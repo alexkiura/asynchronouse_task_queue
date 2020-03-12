@@ -1,9 +1,10 @@
+import collections
+import json
 import os
 import sys
-import json
 import time
 import uuid
-import collections
+
 from nltk.corpus import stopwords
 
 
