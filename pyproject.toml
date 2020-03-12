@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "asynchronouse_task_queue"
+version = "0.1.0"
+description = "Asynchronous task queue implemented in Python"
+authors = ["Alex Kiura <kiuraalex@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.18.1"
+nltk = "^3.4.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.3.5"
+pytest-cov = "^2.8.1"
+pylint = "^2.4.4"
+flake8 = "^3.7.9"
+ipython = "^7.13.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
